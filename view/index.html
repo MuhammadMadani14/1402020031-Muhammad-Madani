@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- external css-->
+        <link rel="stylesheet" href="../css/styles.css" />
+        <!-- grid -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> 
+        <!-- icon -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+        
+        <!-- Scrip Carausel -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+        
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row mini-header">
+                <div class="col-sm-2"">
+                    <img class="mini-icon" src="../icon/download_120262.png">
+                    <a class="mini-header" href="https://www.tokopedia.com/mobile-apps/">Download Tokopedia App</a>
+                </div>
+                <div class="col-sm-5">
+                </div>
+                <div class="col-sm-5 position-right">
+                    <a class="mini-header" href="">Tentang Tokopedia</a>
+                    <a class="mini-header" href="">Mitra Tokopedia</a>
+                    <a class="mini-header" href="">Mulai Berjualan</a>
+                    <a class="mini-header" href="">Tokopedia Care</a>
+                    <a class="mini-header" href="">Promo</a>
+                    
+                </div>
+            </div>
+            <div class="row medium-header">
+                <img class="logo" src="../img/1200px-Logo-Tokopedia.png">
+                <a class="medium-header" href="">Kategori</a>
+                <input type="text" class="search" placeholder="Cari disini">
+                <img class="medium-icon" src="../icon/shopping.png">
+                <button class="medium-header">Masuk</button>
+                <button class="medium-header-fill">Daftar</button>
+            </div>
+        </div>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel" style="margin: 0px 30px 0px 30px;">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+            </ol>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+        
+              <div class="item active">
+                <img src="../img/Banner-Blog-Seller-Center-1200x630.jpg" alt="Los Angeles" style="width:100%;">
+              </div>
+              <div class="item">
+                <img src="../img/feeffb23-1b30-42fb-b9bc-cc777f8d156a.jpg" alt="Chicago" style="width:100%;">
+              </div>
+            </div>
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+              <span class="sr-only">Next</span>
+            </a>
+        </div>
+          
+
+        <div class="row content">
+            <div class="col-sm-6"" style="margin: 5px;">
+                <h3 style="padding-bottom: 15px;">Kategori Pilihan</h3>
+                <div class="row">
+                    <div class="col-sm-3 content">
+                        <h3 style="padding-bottom: 1px;">Sepatu</h3>
+                        <img src="../img/editorial_generic_co.thumbnail.overview-image.730.411.jpg" width="100%">
+                    </div>
+                    <div class="col-sm-3 content">
+                        <h3 style="padding-bottom: 1px;">Sneakers</h3>
+                        <img src="../img/nike-air-jordan-1-x-virgil-abloh--nikecom_ratio-16x9.jpg" width="100%">
+                    </div>
+                    <div class="col-sm-3 content">
+                        <h3 style="padding-bottom: 1px;">Masker</h3>
+                        <img src="../img/36092-ilustrasi-masker.jpg" width="100%">
+                    </div>
+                    <div class="col-sm-3 content">
+                        <h3 style="padding-bottom: 1px;">Minyak</h3>
+                        <img src="../img/kppu-akan-bawa-masalah-harga-minyak-goreng-ke-ranah-hukum-QhY8V4XTfG.jpg" width="100%">
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-5" style="margin: 5px;">
+                <h3 style="padding-bottom: 15px;">Top Up dan Tagihan</h3>
+                <div class="row" style="text-align: center;">
+                    <div class="col-sm-3 content-nav" id="puls">
+                        Pulsa
+                    </div>
+                    <div class="col-sm-3 content-nav" id="paketdata">
+                        Paket
+                    </div>
+                    <div class="col-sm-3 content-nav">
+                        Listrik
+                    </div>
+                    <div class="col-sm-3 content-nav">
+                        PLN
+                    </div>
+                </div>
+                <div class="row" style="flex: 1 1 auto;">
+                    <div class="col-sm-5">
+                        <label for="">
+                            Nomor Telpon
+                        </label>
+                        <input type="text" class="pulsa" placeholder="0812345678" id="notlp">
+                    </div>
+                    <div class="col-sm-5">
+                        <label for="">
+                            Nominal
+                        </label>
+                        <!--input type="text" class="pulsa" disabled-->
+                        <select id="Nominal" class="pulsa" disabled>
+                            <option value="0">Pilih</option>
+                            <option value="1">Rp. 1.000</option>
+                            <option value="2">Rp. 3.000</option>
+                            <option value="3">Rp. 5.000</option>
+                            <option value="4">Rp. 10.000</option>
+                            <option value="5">Rp. 20.000</option>
+                            <option value="6">Rp. 25.000</option>
+                            <option value="7">Rp. 50.000</option>
+                            <option value="8">Rp. 100.000</option>
+                          </select>
+                          <select class="pulsa" id="piket" disabled hidden>
+                            <option value="0">Pilih Paket Data</option>
+                            <option value="1">Internet 10 GB - Rp. 30.500</option>
+                            <option value="2">Internet 15 GB - Rp. 43.000</option>
+                            <option value="3">Internet Combo Unlimited (Kuota Malam) - Rp. 20.000</option>
+                            <option value="4">Internet Combo Unlimited - Rp. 70.000</option>
+                        </select>
+                    </div>
+                    <div class="col-sm-2" style="margin-top: 25px;">
+                        <button class="medium-header-fill-grey" disabled id="buttonGrey">Beli</button>
+                        <button class="medium-header-fill-green" hidden id="buttonGreen">Beli</button>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            $(document).ready(function(){
+                $("#notlp").change(function(){
+                    if ($("#notlp").val() > 0) {
+                        $("#Nominal").prop("disabled", false);
+                        $("#piket").prop("disabled", false);
+                        alert("Nomor Telepon adalah " + $("#notlp").val())
+                        confirm("Nomor Telepon Anda Adalah " + $("#notlp").val())
+                    }
+                    else {
+                        $("#Nominal").prop("disabled", true);
+                        $("#piket").prop("disabled", true);
+                        document.getElementById("#Nominal").value = "Pilih";
+                        document.getElementById("#piket").value = "Pilih Paket Data";
+                    }
+                    console.log($("#notlp").val())
+                });
+                $("#Nominal").change(function(){
+                    $("#buttonGrey").hide();
+                    $("#buttonGreen").show();
+                    $("#Nominal").show();
+                    
+                    $("#piket").hide();
+                });
+
+                $("#notlp").keypress(function(value) {
+                 if (value.which != 8 && value.which != 0 && (value.which < 48 || value.which > 57)) {
+                return false;
+                }
+                });
+
+                $("#buttonGreen").click(function() {
+                const pilihanItem = $("#Nominal").children("option:selected").text();
+                if (pilihanItem === "Pilih") {
+                    
+                } else {
+                    var price = pilihanItem.substring(4);
+                    var str = "";
+                    str = price === "1.000" ? "Rp. 4.000" : str;
+                    str = price === "3.000" ? "Rp. 6.000" : str;
+                    str = price === "5.000" ? "Rp. 8.000" : str;
+                    str = price === "10.000" ? "Rp. 12.000" : str;
+                    str = price === "20.000" ? "Rp. 22.000" : str;
+                    str = price === "25.000" ? "Rp. 27.000" : str;
+                    str = price === "50.000" ? "Rp. 52.000" : str;
+                    str = price === "100.000" ? "Rp. 102.000" : str;
+                    let verif = confirm("Pembelian pulsa sebesar " + pilihanItem + " ke nomor " + $("#notlp").val());
+                    if (verif) {
+                        alert("Total harga pulsa " + str + ",- ke nomor " + $("#notlp").val() + " sedang di proses. Terima kasih :)");
+                    } else {
+
+                    }
+                }
+            });
+
+            $("#buttonGreen").click(function() {
+                const pilihanItem1 = $("#piket").children("option:selected").text();
+                if (pilihanItem1 === "Pilih Paket Data") {
+                
+                } else {
+                    let price = pilihanItem1.substring(pilihanItem1.length - 10);
+                    let verif2 = confirm("Pembelian paket data " + pilihanItem1 + " ke nomor " + $("#notlp").val());
+                    if (verif2) {
+                        alert("Total harga paket data " + price + ",- ke nomor " + $("#notlp").val() + " sedang di proses. Terima kasih :)");
+                    } else {
+
+                    }
+                }
+            });
+            
+                    $("#paketdata").click(function() {
+                        $("#Nominal").hide();
+                        $("#Nominal").prop("disabled", true);
+                        $("#piket").prop("hidden", false);
+                        $("#piket").show();
+                        });
+                    $("#puls").click(function() {
+                        $("#Nominal").show();
+                    $("#piket").hide();
+                        });
+                                //$('#aioConceptName').find(":selected").text();
+                                $("#piket").change(function() {
+                        const pilihan = $("#piket").children("option:selected").text();
+                        if (pilihan != "Pilih") {
+                        $("#buttonGrey").hide();
+                        $("#buttonGreen").prop("hidden", false);
+                        $("#buttonGreen").prop("disabled", false);
+                        $("#buttonGreen").show();
+                        }else{
+                        $("#buttonGrey").show();  
+                        $("#buttonGreen").prop("hidden", true);
+                        $("#buttonGreen").prop("disabled", true);
+                        $("#buttonGreen").hide();
+                        }
+                    });
+                    });
+                    </script>
+        <div class="row content">
+            <div class="col-sm-12"" style="margin: 5px;">
+                <h3 style="padding-bottom: 15px;">Official Store</h3>
+                <div class="row">
+                    <div class="col-sm-3 content">
+                        <img src="../img/editorial_generic_co.thumbnail.overview-image.730.411.jpg" width="100%">
+                    </div>
+                    <div class="col-sm-3 content">
+                        <img src="../img/nike-air-jordan-1-x-virgil-abloh--nikecom_ratio-16x9.jpg" width="100%">
+                    </div>
+                    <div class="col-sm-3 content">
+                        <img src="../img/36092-ilustrasi-masker.jpg" width="100%">
+                    </div>
+                    <div class="col-sm-3 content">
+                        <img src="../img/kppu-akan-bawa-masalah-harga-minyak-goreng-ke-ranah-hukum-QhY8V4XTfG.jpg" width="100%">
+                    </div> 
+                </div>
+                <div class="row">
+                    <div class="col-sm-3 content">
+                        <img src="../img/editorial_generic_co.thumbnail.overview-image.730.411.jpg" width="100%">
+                    </div>
+                    <div class="col-sm-3 content">
+                        <img src="../img/nike-air-jordan-1-x-virgil-abloh--nikecom_ratio-16x9.jpg" width="100%">
+                    </div>
+                    <div class="col-sm-3 content">
+                        <img src="../img/36092-ilustrasi-masker.jpg" width="100%">
+                    </div>
+                    <div class="col-sm-3 content">
+                        <img src="../img/kppu-akan-bawa-masalah-harga-minyak-goreng-ke-ranah-hukum-QhY8V4XTfG.jpg" width="100%">
+                    </div> 
+                </div>
+            </div>
+    </body>
+</html>
